@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football news</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            justify-content: center;
+        }
+        .upper-container{
+            display: grid;
+            grid-template-columns: 350px 350px;
+            gap: 40px;
+            color: white;
+        }
+        .left-container{
+            background-image: url(/images/stadium.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 250px;
+            display: grid;
+            grid-template-rows: 170px 50px;
+            padding: 20px;
+        }
+        .right-container{
+            background-image: url(/images/stadium.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 250px;
+            display: grid;
+            grid-template-rows: 170px 50px;
+            padding: 20px;
+        }
+        .tennis{
+            background-color: blue;
+            width: 50px;
+            height: 20px;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .football{
+            background-color: yellow;
+            width: 90px;
+            height: 20px;
+            font-size: 13px;
+            text-align: center;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .lower-container{
+            display: grid;
+            gap: 40px;
+            grid-template-columns: 350px 350px; 
+            color: black;
+        }
+        .lower-left-container{
+            display: grid;
+            gap: 30px;
+        }
+        .lower-right-container{
+            display: grid;
+            gap: 30px;
+        }
+        .img{
+            width: 100px;
+        }
+        .one{
+            display: grid;
+            grid-template-columns: 120px 220px;
+        }
+        span{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            font-size: 20px;
+            font-weight:bolder;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="upper-container">
+            <div class="left-container">
+                <div class="tennis">TENIS</div>
+                <div class="tennis-description">England reach World Cup last 16 with hard-fought win over Argentina</div>
+                <div class="date">📅May 19,2019  |  📝3 Comment</div>
+            </div>
+            <div class="right-container">
+                <div class="football">FOOTBALL</div>
+                <div class="football-description">England reach World Cup last 16 with hard-fought win over Argentina</div>
+                <div class="date">📅May 19,2019  |  📝3 Comment</div>
+            </div>
+            <div class="lower-container">
+                <div class="lower-left-container">
+                    <div class="one">
+                        <img src="/images/Picture1.png" alt="" class="img">
+                        <div class="description"> <span>There's a great history of the winner Sandia</span> <br><br> 📅May 19,2019  |  📝3 Comment</div>
+                    </div>
+                    <div class="one">
+                        <img src="/images/Picture2.png" alt="" class="img">
+                        <div class="description"> <span>It'll be a tough game and a physical game</span> <br> <br> 📅May 19,2019  |  📝3 Comment</div>
+                    </div>
+                    <div class="one">
+                        <img src="/images/Picture3.png" alt="" class="img">
+                        <div class="description"> <span>If we don't scorewe can't get frustrated</span> <br> <br> 📅May 19,2019  |  📝3 Comment</div>
+                    </div>
+                </div>
+                <div class="lower-right-container">
+                    <div class="one">
+                        <img src="/images/Picture4.png" alt="" class="img">
+                        <div class="description"> <span>Le Harve does have a growing fan club </span> <br><br> 📅May 19,2019  |  📝3 Comment</div>
+                    </div>
+                    <div class="one">
+                        <img src="/images/Picture5.png" alt="" class="img">
+                        <div class="description"> <span>It will be hard to break them down</span> <br> <br> 📅May 19,2019  |  📝3 Comment</div>
+                    </div>
+                    <div class="one">
+                        <img src="/images/Picture6.png" alt="" class="img">
+                        <div class="description"> <span>We've never seen them as organized</span> <br> <br> 📅May 19,2019  |  📝3 Comment</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
